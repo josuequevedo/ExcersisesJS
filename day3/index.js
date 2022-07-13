@@ -1,4 +1,4 @@
-// escriba una funcion que tome como un array como argumento (a) y un número (n) como argumento deberá devolver los ultimós (n) elementos del array.
+// escriba una funcion que un array como argumento (a) y un número (n) como argumento deberá devolver los ultimós (n) elementos del array.
 
 const lastElements = (a, n) => {
 	return a.slice(-n);
