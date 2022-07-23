@@ -1,7 +1,12 @@
-// Escribir una función que tome una matriz de números como argumento  Debería devolver una matriz con los números ordenados en orden descendente.
+//Escribir una función que tome una matriz de objetos como argumento Ordenar la matriz por propiedad b en orden ascendente Devuelve la matriz ordenada
 
-const checkArr = (arr) => {
-	return arr.reduce((a, b) => (a.length <= b.length ? b : a));
+const sortArr = (arr) => {
+	return arr.sort((a, b) => a.b - b.b);
 };
 
-console.log(checkArr(['I', 'need', 'candy', 'hello-world']));
+console.log(
+	sortArr([
+		{ a: 1, b: 2 },
+		{ a: 5, b: 4 },
+	])
+);
