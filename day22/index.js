@@ -12,7 +12,3 @@ console.log(
 		[6, 4, 5],
 	])
 );
-
-/* 
-   en este ejercicio use el metodo flat() pasando le un valor infinito como argumento para que no importara cuantos sub-arrays contenia el array principal simpre quede 1 y ordene los elemento con el metodo sort() 
-   */
