@@ -8,4 +8,4 @@ const changeStr = (str) => {
 		.replace(/\W/g, '');
 };
 
-console.log(changeStr('abc'));
+console.log(changeStr('ptdrn'));
