@@ -1,4 +1,4 @@
-//* escriba una funcion que tome dos argumentos (A,B) como argumentos, donde A será un string y B será un valor aleatorio, deberá ingresar en cada 3 elementos de  A el valor contenido en B debe ser de atrás hacia adelante.
+// *escriba una funcion que tome dos argumentos (A,B) como argumentos, donde A será un string y B será un valor aleatorio, deberá ingresar en cada 3 elementos de  A el valor contenido en B debe ser de atrás hacia adelante.
 
 const insertElement = (a, b) => {
 	let result = [];
@@ -9,5 +9,3 @@ const insertElement = (a, b) => {
 	}
 	return result.reverse().join(b);
 };
-
-console.log(insertElement('21229276', '.'));
